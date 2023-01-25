@@ -14,7 +14,7 @@ body {
 }
 
 #container {
-    background: #ede9cc url(../imagens/bg-container.png);
+    background: #ede9cc url(../imagens/bg-container.png) repeat-y top center;
     min-width: 740px;
     max-width: 1180px;
     margin: 0 auto;  
@@ -61,7 +61,7 @@ body {
 }
 
 #conteudo-menu {
-    margin-left: 90px;
+    margin-left: 85px;
     margin-right: 15px;
     padding-top: 15px;
 }
@@ -129,11 +129,68 @@ a.reservar {
 }
 
 #area-principal {
-    background-color: black;
-    width: 590px;
+    background: url(../imagens/bg-area-principal.png) repeat-x left top;
+    width: 50%;
 }
 
+
 #area-lateral {
-    background-color: yellow;
-    width: 590px;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) repeat-x left top;
+}
+
+.conteudo {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+ul#beneficios li {
+    border-bottom: 1px solid #f3efcb;
+    height: 97px;
+    padding: 8px;
+}
+
+ul#beneficios li a img {
+    float: left;
+    margin-right: 8px;
+}
+
+ul#beneficios li a h3 {
+    color: #615b2d;
+    font-size: 1em;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+ul#beneficios li a p {
+    font-size: 0.8em;
+    color: #000;
+}
+
+ul#beneficios li:hover {
+    background-color: #f3f6d6;
+    cursor: pointer;
+}
+
+#rodape {
+    background-color: white;
+    padding: 16px;
+    background: #fff url(../imagens/bg-rodape.png) repeat-x left top;
+}
+
+#rodape p {
+    color: #7d7640;
+    text-align: center;
+}
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
